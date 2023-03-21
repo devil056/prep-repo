@@ -35,7 +35,7 @@ class Code{
 		if(currItem==null){
 			System.out.println("No items to bill the amount");
 		}
-		while(currItem.next!=null){
+		while(currItem!=null){
 			billAmount += currItem.total;
 			currItem=currItem.next;
 		}

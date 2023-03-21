@@ -1,3 +1,4 @@
+//workng example of shopping cart
 class Code{
 
 	Item head;
